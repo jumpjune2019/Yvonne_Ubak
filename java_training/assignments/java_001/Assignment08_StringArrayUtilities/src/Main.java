@@ -46,7 +46,18 @@ public class Main {
 		System.out.println("{'"+myList[0]+"', '" + myList[1]+"', '" + myList[2]+"', '" + myList[3]+"', '" + myList[4]+"', '" + myList[5]+"', '" + myList[6]+ "'}");
 		System.out.println("\nSceanrio 1");
 		System.out.println("arrayHasExactMatch (myList, “zo”, false): is " + s1);
+		System.out.println("\nSceanrio 2");
 		System.out.println("arrayHasExactMatch (myList, 'zoo', false): is " + s2);
+		System.out.println("\nSceanrio 3");
+		System.out.println("arrayHasExactMatch (myList, 'zoo', true): is " + s3);
+		System.out.println("\nSceanrio 4");
+		System.out.println("arrayHasExactMatch (myList, 'foo', true): is " + s4);
+		System.out.println("\nSceanrio 5");
+		System.out.println("arrayHasExactMatch (myList, 'foo', false): is " + s5);
+		System.out.println("\nSceanrio 6");
+		System.out.println("arrayHasExactMatch (myList, 'delta', true): is " + s6);
+		System.out.println("\nSceanrio 7");
+		System.out.println("arrayHasExactMatch (myList, 'Delta', true): is " + s7);
 		
 	}
 
