@@ -42,9 +42,9 @@ public class Main {
 		FileInputStream input2 = new FileInputStream(f2);
 		
 		if(f1.length() == f2.length()) {
-			int n =0;
-			byte[] fileb1 = new byte[n];
-			byte[] fileb2 = new byte[n];
+			//int n =0;
+			byte[] fileb1 = new byte[(int) f1.length()];
+			byte[] fileb2 = new byte[(int) f2.length()];
 			input1.read(fileb1);
 			input2.read(fileb2);
 			
