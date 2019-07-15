@@ -20,7 +20,7 @@ public class Main {
 			return false;
 		}
 		
-		//finding indexes
+		//finding indexes---> work in progress
 		static int[] indexOfOccuranceInArray(String[] a, String s, boolean sensitive) {
 			int[] indexes = {-1};
 			if(sensitive == true) {
@@ -55,6 +55,7 @@ public class Main {
 		boolean s5 = arrayHasExactMatch (myList, "foo", false);
 		boolean s6 = arrayHasExactMatch (myList, "delta", true);
 		boolean s7 = arrayHasExactMatch (myList, "Delta", true);
+			//work in progress
 		int[] s8 = indexOfOccuranceInArray (myList, "zo", false);
 		int[] s9 = indexOfOccuranceInArray (myList, "zoo", false);
 		int[] s10 = indexOfOccuranceInArray (myList, "zoo", true);

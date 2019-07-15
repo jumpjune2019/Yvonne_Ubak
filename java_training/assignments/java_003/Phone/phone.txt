@@ -1,7 +1,0 @@
-Phonebook Data
-Name                          Phone                         City                          
-Yvonne                        2817814679                    Houston                       
-Tyler                         +4489756709812                London                        
-Lion                          rawrrr                        Narirobi                      
-Elephant                      broooup                       Phuket                        
-Monkey                        ohah                          Amazon                        

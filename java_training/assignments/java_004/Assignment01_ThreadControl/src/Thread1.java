@@ -1,4 +1,4 @@
-//creating Thread 1
+//creating Thread
 class Thread1 implements Runnable{
 	//variables
 	Thread thrd;
