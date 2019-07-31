@@ -3,8 +3,9 @@ package preterm_v04;
 public class Labels {
 	static char rowlbl;
 	static int row;
+	
+	//----------------------------------------------------get row label
 	static char getRow(int rv) {
-//		rowlbl = 'A';
 		if(rv >=0 && rv <10) {
 			rowlbl ='A';
 		}
@@ -38,6 +39,7 @@ public class Labels {
 	 return rowlbl;
 	}
 	
+	//------------------------------------------------------get seat number
 	static int getSeatNumber(int sn) {
 		int seatNum =0;
 		int compNum = 0;
@@ -124,6 +126,7 @@ public class Labels {
 		return seatNum;
 	}
 	
+	//-------------------------------------------------------get row number
 	static int getRowNum(char rlbl) {
 		switch(rlbl) {
 		case 'A':
